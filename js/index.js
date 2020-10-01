@@ -79,3 +79,11 @@ mainContAbo[4].innerHTML = siteContent["main-content"]["vision-content"];
 //middle img
 let wideImg = document.querySelector("#middle-img");
 wideImg.setAttribute("src", siteContent["main-content"]["middle-img-src"]);
+//Contact h4
+let contactCont = document.querySelectorAll(".contact h4");
+contactCont[0].textContent = siteContent["contact"]["contact-h4"];
+//contact p tag
+let contactP = document.querySelectorAll(".contact p");
+contactP[0].innerHTML = siteContent["contact"]["address"];
+contactP[1].innerHTML = siteContent["contact"]["phone"];
+contactP[2].innerHTML = siteContent["contact"]["email"];
