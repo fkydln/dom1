@@ -99,3 +99,7 @@ navGreen[3].style.color = "green";
 navGreen[4].style.color = "green";
 navGreen[5].style.color = "green";
 //adding 2 more items to nav system
+document.querySelector("nav").prepend("Login");
+//append Child
+let appendItem = document.createTextNode("Sign-Up");
+document.querySelector("nav").appendChild(appendItem);
