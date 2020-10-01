@@ -90,3 +90,12 @@ contactP[2].innerHTML = siteContent["contact"]["email"];
 // footer
 let footerCont = document.querySelector("footer");
 footerCont.textContent = siteContent["footer"]["copyright"];
+//changing navbar text color to green
+let navGreen = document.querySelectorAll("nav a");
+navGreen[0].style.color = "green";
+navGreen[1].style.color = "green";
+navGreen[2].style.color = "green";
+navGreen[3].style.color = "green";
+navGreen[4].style.color = "green";
+navGreen[5].style.color = "green";
+//adding 2 more items to nav system
