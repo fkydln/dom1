@@ -70,7 +70,12 @@ mainContH4[2].innerHTML = siteContent["main-content"]["services-h4"];
 mainContH4[3].innerHTML = siteContent["main-content"]["product-h4"];
 mainContH4[4].innerHTML = siteContent["main-content"]["vision-h4"];
 //main content about
-
+let mainContAbo = document.querySelectorAll(".text-content p");
+mainContAbo[0].innerHTML = siteContent["main-content"]["features-content"];
+mainContAbo[1].innerHTML = siteContent["main-content"]["about-content"];
+mainContAbo[2].innerHTML = siteContent["main-content"]["services-content"];
+mainContAbo[3].innerHTML = siteContent["main-content"]["product-content"];
+mainContAbo[4].innerHTML = siteContent["main-content"]["vision-content"];
 //middle img
 let wideImg = document.querySelector("#middle-img");
 wideImg.setAttribute("src", siteContent["main-content"]["middle-img-src"]);
